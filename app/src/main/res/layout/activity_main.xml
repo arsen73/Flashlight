@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="pro.devapp.flashlight.MainActivity">
+
+    <ToggleButton
+        android:id="@+id/flashlightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/flashlight_button_background"
+        android:textOn=""
+        android:textOff=""
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_white_screen"
+        android:id="@+id/switch_button"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black_overlay_light"
+        android:padding="50dp"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:text="@string/description"
+            />
+        <Button
+            android:id="@+id/hide_hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="OK"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

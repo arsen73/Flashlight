@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ліхтарик</string>
+    <string name="add_widget">Додати віджет</string>
+    <string name="title_activity_fullscreen">Ліхтарик</string>
+    <string name="close_button">Закрити</string>
+    <string name="use_white_screen">(Якщо у Вашому пристрої немає підсвічування камери) Використовувати білий екран  </string>
+    <string name="description">Вы можете добавить виджет на главный экран, для этого найдите его в списке виджетов и перетащите на главный экран. Если в вашем устройстве нет подсветки камеры - Вы можете использовать белый экран, для этого включите кнопку внизу экрана.</string>
+</resources>

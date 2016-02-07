@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фонарик</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="title_activity_fullscreen">Фонарик</string>
+    <string name="close_button">Закрыть</string>
+    <string name="use_white_screen">(Если в Вашем устройстве нет вспышки) Использовать белый экран  </string>
+    <string name="description">Вы можете добавить виджет на главный экран, для этого найдите его в списке виджетов и перетащите на главный экран. Если в вашем устройстве нет вспышки - Вы можете использовать белый экран, для этого включите кнопку внизу экрана.</string>
+</resources>

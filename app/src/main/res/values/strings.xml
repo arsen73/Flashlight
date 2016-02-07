@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Flashlight</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_fullscreen">Flashlight</string>
+    <string name="close_button">Close</string>
+    <string name="use_white_screen">(If Your device don\'t have flashlight) Use white screen  </string>
+    <string name="description">You can add widget on main screen. Please find widget in widgets list and move it on to main screen. If your device don\'t have flash light, you can use white full screen, for this - turn on bottom button.</string>
+</resources>
